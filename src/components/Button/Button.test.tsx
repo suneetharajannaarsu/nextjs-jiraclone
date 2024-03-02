@@ -4,7 +4,7 @@ import Button  from "./index";
 
 describe("Button Component Test: " , () => {
     test("should render button", () => {
-        render(<Button testFlag={false} />);
+        render(<Button />);
         expect(screen.getAllByTestId('button')).toBeDefined()
     });
 })
