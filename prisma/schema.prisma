@@ -31,7 +31,7 @@ model Board {
   title       String
   description String?
   startDate   DateTime
-  endTime     DateTime
+  endDate     DateTime
   columns     BoardColumn[]
   BoardTicket BoardTicket[]
 }
