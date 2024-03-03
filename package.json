@@ -11,7 +11,12 @@
     "test:watch": "jest --watchAll",
     "migrate-dev": "prisma migrate dev",
     "studio": "prisma studio",
-    "tidy": "prisma format"
+    "tidy": "prisma format",
+    "generate": "prisma generate",
+    "seed": "prisma db seed"
+  },
+  "prisma": {
+    "seed": "node ./prisma/seed.ts"
   },
   "dependencies": {
     "@prisma/client": "^5.10.2",
